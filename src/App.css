@@ -11,3 +11,31 @@ header, section {
 .bg-1 {
     background: #303F53;
 }
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.btn {
+    border: 2px solid #6cdfd8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #6cdfd8;
+    transition: color 0.5s ease-in;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #FFF;
+    border: 2px solid#FFF;
+}
