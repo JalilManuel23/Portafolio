@@ -1,0 +1,38 @@
+.project-card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.upper-border {
+    padding-top: 2vmin;
+    border-radius: 1vmin 1vmin 0 0;
+    background: #2EC9C4;
+    width: 90%;
+}
+
+.project-content {
+    border-radius: 2vmin;
+    padding: 2vmin;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, .2);
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.project-description {
+    font-size: 2vmin;
+}
+
+.project-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-icons svg {
+    margin: 20px 10px 0 10px;
+}
