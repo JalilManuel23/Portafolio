@@ -17,3 +17,12 @@
 .arrow {
     font-size: 5vmin;
 }
+
+.github-projects {
+    display: flex;
+    margin: 25px;
+}
+
+.github-projects p {
+    margin-left: 10px;
+}
