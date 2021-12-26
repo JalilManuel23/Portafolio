@@ -11,6 +11,12 @@ const projects = [
         "image": "img/projects/brighit.png",
         "description": "Sitio web publicitario para un restaurante local, sitio de administración del mismo."
     },
+    {
+        "id": 3,
+        "name": "Full Wings",
+        "image": "img/projects/brighit.png",
+        "description": "Sitio web publicitario para un restaurante local, sitio de administración del mismo."
+    },
 ]
 
 export default projects;
