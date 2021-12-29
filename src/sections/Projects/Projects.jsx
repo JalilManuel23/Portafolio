@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Title } from '../../components/Title/Title'
 import './projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,14 +9,13 @@ import projects from  './projectsData.js';
 
 export const Projects = () => {
 
+    useEffect(() => {
+        console.log( projects.length );
+    }, [])
+
     const [i, setI] = useState(1)
 
     const projectBack = () => { 
-
-        if( i - 1  < 1 ) {
-            
-        }
-
         setI( i - 1 );
     }
 
@@ -29,8 +28,11 @@ export const Projects = () => {
             <div className="container projects-container">
                 <Title text="Proyectos" />
                 <div className="projects-carrousel">
-                    <FontAwesomeIcon icon={ faArrowCircleLeft } className='arrow' onClick={ () => projectBack() } />
                     {
+                        ( i - 1 >= 1) ? <FontAwesomeIcon icon={ faArrowCircleLeft } className='arrow' onClick={ () => projectBack() } /> : null
+                    }
+                    {
+                    
                         projects.map( ( { id, name, description, image } ) => {       
                             if( id == i || id == ( i + 1 ) )
                                 return <ProjectCard 
@@ -40,7 +42,9 @@ export const Projects = () => {
                                         />
                         })
                     }
-                    <FontAwesomeIcon icon={ faArrowCircleRight } className='arrow' onClick={ () => projectNext() } />
+                    {
+                        ( i + 2 <= projects.length) ? <FontAwesomeIcon icon={ faArrowCircleRight } className='arrow' onClick={ () => projectNext() } /> : null
+                    }
                 </div>
                 <div className="github-projects">
                     <FontAwesomeIcon icon={ faGithub } className='arrow'  />

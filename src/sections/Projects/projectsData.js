@@ -13,7 +13,19 @@ const projects = [
     },
     {
         "id": 3,
-        "name": "Full Wings",
+        "name": "Full Wings2",
+        "image": "img/projects/brighit.png",
+        "description": "Sitio web publicitario para un restaurante local, sitio de administración del mismo."
+    },
+    {
+        "id": 4,
+        "name": "Full Wings3",
+        "image": "img/projects/brighit.png",
+        "description": "Sitio web publicitario para un restaurante local, sitio de administración del mismo."
+    },
+    {
+        "id": 5,
+        "name": "Full Wings4",
         "image": "img/projects/brighit.png",
         "description": "Sitio web publicitario para un restaurante local, sitio de administración del mismo."
     },
