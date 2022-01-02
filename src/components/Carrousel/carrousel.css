@@ -1,0 +1,9 @@
+.projects-carrousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 5vmin;
+}

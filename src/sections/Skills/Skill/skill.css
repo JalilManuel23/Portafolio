@@ -6,5 +6,11 @@
 }
 
 .skill img {
-    width: 15%;
+    height: 45px;
+    margin: 0 5vmin 10vmin;
+}
+
+.list-skills {
+    display: flex;
+    flex-wrap: wrap;
 }

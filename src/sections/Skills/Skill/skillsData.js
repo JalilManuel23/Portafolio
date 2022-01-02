@@ -7,7 +7,7 @@ const skills = [
     {
         "id": 2,
         "title": "CSS",
-        "image": "img/skills/CSS3-Logo.png"
+        "image": "img/skills/css.png"
     },
     {
         "id": 3,

@@ -3,6 +3,8 @@ import { Title } from '../../components/Title/Title'
 import { Skill } from './Skill/Skill'
 import './skills.css'
 import skills from './Skill/skillsData';
+import { Carrousel } from '../../components/Carrousel/Carrousel';
+import courses from './coursesData'
 
 export const Skills = () => {
     return (
@@ -16,6 +18,7 @@ export const Skills = () => {
                         })
                     }
                 </div>
+                <Carrousel data = { courses } />
             </div>
         </header>
     )
