@@ -11,7 +11,7 @@ export const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="brand-title">
-                Jalil López
+                <span>&#8832;</span> Jalil López <span>&#8827;</span> 
             </div>
             <a href="#" className="toggle-button" onClick={ toogle }>
                 <span className="bar"></span>

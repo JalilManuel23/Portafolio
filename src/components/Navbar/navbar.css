@@ -6,8 +6,13 @@
 }
 
 .brand-title {
-    font-size: 1.5rem;
+    font-size: 4vmin;
     /* margin: .5rem; */
+}
+
+.brand-title span {
+    color: aqua;
+    font-weight: bold;
 }
 
 .navbar-links ul {
