@@ -1,0 +1,15 @@
+.contact-info {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: 15vh;
+    font-size: 5vmin;
+}
+
+.contact-info p {
+    font-weight: bold;
+}
+
+.icon-contact {
+    margin-right: 10px;
+}
