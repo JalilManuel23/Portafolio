@@ -2,9 +2,8 @@ import React from 'react'
 import './carrousel_card.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faMapMarker } from '@fortawesome/free-solid-svg-icons'
-import { faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 
-export const CarrouselCard = ( { name, description, image }) => {
+export const CarrouselCard = ( { name, description, image, icons }) => {
     return (
         <div className="carrousel-card">
             <div className="upper-border"></div>
@@ -15,8 +14,12 @@ export const CarrouselCard = ( { name, description, image }) => {
                     { description }
                 </p>
                 <div className="carrousel-icons">
-                    <FontAwesomeIcon icon={ faJsSquare } />
-                    <FontAwesomeIcon icon={ faReact } />
+                    {
+                        ( icons ) && icons.map(( icon ) => {
+                            console.log( icon );
+                            return <FontAwesomeIcon icon={ icon } />
+                        })
+                    }
                 </div>
             </div>
         </div>

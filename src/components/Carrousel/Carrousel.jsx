@@ -22,12 +22,13 @@ export const Carrousel = ({ data }) => {
                     }
                     {
                     
-                        data.map( ( { id, name, description, image } ) => {       
+                        data.map( ( { id, name, description, image, icons } ) => {       
                             if( id == i || id == ( i + 1 ) )
                                 return <CarrouselCard 
                                             name={ name }  
                                             description={ description }
                                             image={ image }
+                                            icons={ icons }
                                         />
                         })
                     }
