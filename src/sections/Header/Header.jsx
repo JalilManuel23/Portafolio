@@ -4,25 +4,27 @@ import './header.css'
 import { gsap } from "gsap";
 
 export const Header = () => {
-    const boxRef = useRef();
+    
+    const timeline = gsap.timeline();
 
     // wait until DOM has been rendered
-    // useEffect(() => {
-    //     gsap.to(boxRef.current, { rotation: "+=360" });
-    // });
+    useEffect(() => {
+        const animation = document.querySelectorAll('.animation');
+        timeline.from( animation, { opacity: 0, x: 50, y: 40, duration: 1, stagger: 0.3 } )
+    });
 
     return (
         <header className="bg-1">
             <div className="container">
-                <Navbar /> 
+                <Navbar className="animation" /> 
                 <div className="contain-header">
                     <div className="info-header">
-                        <h1 className="tit-header">Desarrollador-Programador</h1>
-                        <h2 className="name">Jalil López</h2>
-                        <p>TSU en Tecnologías de la Información</p>
-                        <p className="btn">Ver proyectos</p>
+                        <h1 className="tit-header animation">Desarrollador-Programador</h1>
+                        <h2 className="name animation">Jalil López</h2>
+                        <p className='animation'>TSU en Tecnologías de la Información</p>
+                        <p className="btn animation">Ver proyectos</p>
                     </div>
-                    <img ref={boxRef} className="img-programming" src='img/programming.svg' alt="programming" />
+                    <img className="img-programming animation" src='img/programming.svg' alt="programming" />
                 </div>
             </div>
         </header>
