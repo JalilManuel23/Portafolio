@@ -15,7 +15,7 @@ export const AboutMe = () => {
     }, [])
 
     return (
-        <section className="about-me bg-1">
+        <section id='aboutme' className="about-me bg-1">
             <div className="about-me-content" data-aos="fade-up">
                 <Title text="Sobre mí" />
                 <div className="about-me-info container">

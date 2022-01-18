@@ -16,7 +16,7 @@ export const Skills = () => {
     }, [])
 
     return (
-        <header className="bg-1">
+        <header id='skills' className="bg-1">
             <div className="container skills" data-aos="fade-up">
                 <Title text="Skills" />
                 <div className="list-skills">

@@ -14,7 +14,7 @@ export const Contact = () => {
     }, [])
 
     return (
-        <div className='bg-1'>
+        <div id='contacto' className='bg-1'>
             <div className="container contact" data-aos="fade-up">
                 <Title text="Contacto" />
                 <div className="list-contactInfo">

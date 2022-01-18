@@ -30,10 +30,10 @@ export const Navbar = () => {
             <div className={ navClass ? "navbar-links active" : "navbar-links" }>
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre mi</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#aboutme">Sobre mi</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
         </nav>

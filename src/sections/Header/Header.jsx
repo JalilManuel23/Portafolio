@@ -22,7 +22,7 @@ export const Header = () => {
                         <h1 className="tit-header animation">Desarrollador-Programador</h1>
                         <h2 className="name animation">Jalil López</h2>
                         <p className='animation'>TSU en Tecnologías de la Información</p>
-                        <p className="btn animation">Ver proyectos</p>
+                        <a href='#proyectos' className="btn animation">Ver proyectos</a>
                     </div>
                     <img className="img-programming animation" src='img/programming.svg' alt="programming" />
                 </div>

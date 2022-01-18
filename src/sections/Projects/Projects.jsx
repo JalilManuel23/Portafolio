@@ -16,7 +16,7 @@ export const Projects = () => {
     }, [])
 
     return (
-        <section className="projects bg-1">
+        <section id='proyectos' className="projects bg-1">
             <div className="container projects-container" data-aos="fade-up">
                 <Title text="Proyectos" />
                 <Carrousel data = { projects } />
