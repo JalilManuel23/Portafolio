@@ -23,8 +23,8 @@ export const AboutMe = () => {
                         <img src="img/jalil.png" alt="Jalil foto" className="jalil-foto" />
                         <p>Jalil López</p>
                         <div className="icons-img-name">
-                            <FontAwesomeIcon icon={ faEnvelope } />
-                            <FontAwesomeIcon icon={ faGithub } />
+                            <a href="mailto:jalilmanuel25@gmail.com"><FontAwesomeIcon icon={ faEnvelope } /></a>
+                            <a href="https://github.com/JalilManuel23" target="_blank"><FontAwesomeIcon icon={ faGithub } /></a>
                         </div>
                     </div>
                     <div className="info-ubi">

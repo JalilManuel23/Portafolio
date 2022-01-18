@@ -20,10 +20,10 @@ export const Projects = () => {
             <div className="container projects-container" data-aos="fade-up">
                 <Title text="Proyectos" />
                 <Carrousel data = { projects } />
-                <div className="github-projects">
+                <a href="https://github.com/JalilManuel23" target="_blank" className="github-projects">
                     <FontAwesomeIcon icon={ faGithub } className='arrow'  />
                     <p>@JalilManuel23</p>
-                </div>
+                </a>
             </div>
         </section>
     )
