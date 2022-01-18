@@ -16,7 +16,7 @@ export const Header = () => {
     return (
         <header className="bg-1">
             <div className="container">
-                <Navbar className="animation" /> 
+                <Navbar /> 
                 <div className="contain-header">
                     <div className="info-header">
                         <h1 className="tit-header animation">Desarrollador-Programador</h1>

@@ -1,14 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Title } from '../../components/Title/Title'
 import './about_me.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faMapMarker } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
+import Aos from "aos";
+import 'aos/dist/aos.css'
+
 export const AboutMe = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 3000 })
+    }, [])
+
     return (
         <section className="about-me bg-1">
-            <div className="about-me-content">
+            <div className="about-me-content" data-aos="fade-up">
                 <Title text="Sobre mí" />
                 <div className="about-me-info container">
                     <div className="img-name">

@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './navbar.css'
+import { gsap } from "gsap";
 
 export const Navbar = () => {
     const [navClass, setNavClass] = useState( false );
@@ -7,6 +8,14 @@ export const Navbar = () => {
     const toogle = () => { 
         setNavClass( !navClass )
     }
+
+    const timeline = gsap.timeline();
+
+    // wait until DOM has been rendered
+    useEffect(() => {
+        const animation = document.querySelectorAll('.navbar');
+        timeline.from( animation, { opacity: 0, x: 50, y: 40, duration: 1, stagger: 0.3 } )
+    });
 
     return (
         <nav className="navbar">
