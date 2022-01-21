@@ -1,43 +1,71 @@
+import { faJsSquare, faReact, faBootstrap, faHtml5, faCss3, faNodeJs, faPhp, faJava, faGitAlt, faPython } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+
 const skills = [
     {
         "id": 1,
         "title": "HTML",
-        "image": "img/skills/html.png"
+        "icon": faHtml5
     },
     {
         "id": 2,
         "title": "CSS",
-        "image": "img/skills/css.png"
+        "icon": faCss3
     },
     {
         "id": 3,
         "title": "JavaScript",
-        "image": "img/skills/javascript.png"
+        "icon": faJsSquare
     },
     {
         "id": 4,
-        "title": "PHP",
-        "image": "img/skills/php.png"
+        "title": "Bootstrap",
+        "icon": faBootstrap
     },
     {
         "id": 5,
-        "title": "MySQL",
-        "image": "img/skills/mysql.png"
+        "title": "ReactJS",
+        "icon": faReact
     },
     {
         "id": 6,
         "title": "NodeJS",
-        "image": "img/skills/nodejs.png"
+        "icon": faNodeJs
     },
     {
         "id": 7,
-        "title": "ReactJS",
-        "image": "img/skills/reactjs.png"
+        "title": "PHP",
+        "icon": faPhp
     },
     {
-        "id": 8,
+        "id": 9,
+        "title": "Java",
+        "icon": faJava
+    },
+    {
+        "id": 10,
+        "title": "Python",
+        "icon": faPython
+    },
+    {
+        "id": 11,
+        "title": "GIT",
+        "icon": faGitAlt
+    },
+    {
+        "id": 12,
         "title": "MongoDB",
-        "image": "img/skills/mongodb.png"
+        "icon": faDatabase
+    },
+    {
+        "id": 13,
+        "title": "MySQL",
+        "icon": faDatabase
+    },
+    {
+        "id": 14,
+        "title": "PosgreSQL",
+        "icon": faDatabase
     },
 ]
 

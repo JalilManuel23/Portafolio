@@ -3,14 +3,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 45px;
+    margin: 5vmin 2vmin;
 }
 
-.skill img {
-    height: 45px;
-    margin: 0 5vmin 10vmin;
+.skill .i {
+    font-size: 5vmin;
 }
 
 .list-skills {
     display: flex;
     flex-wrap: wrap;
+}
+
+.title-skill {
+    font-size: 1.5vmin;
 }
