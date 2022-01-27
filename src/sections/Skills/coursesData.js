@@ -22,6 +22,12 @@ const courses = [
         "name": "Curso de JQuery",
         "image": "img/courses/jquery.jpg",
         "description": "Realizado en la plataforma de Udemy"
+    },
+    {
+        "id": 5,
+        "name": "Curso MongoDB for SQL Pros",
+        "image": "img/courses/m100.jpg",
+        "description": "Relación y comparación de Mongo y SQL"
     }
 ]
 
