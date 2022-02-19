@@ -1,13 +1,20 @@
 import React from 'react'
 import './carrousel_card.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ModalImage from "react-modal-image";
 
 export const CarrouselCard = ( { name, description, image, icons, enlace }) => {
     return (
         <div className="carrousel-card">
             <div className="upper-border"></div>
             <div className="carrousel-content">
-                <img src={ image } alt="carrousel" />
+                {/* <img src={ image } alt="carrousel" /> */}
+                <ModalImage
+                    small={image}
+                    large={image}
+                    medium={image}
+
+                />
                 <p className="carrousel-title">{ name }</p>
                 <p className="carrousel-description">
                     { description }
