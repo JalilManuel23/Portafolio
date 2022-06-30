@@ -14,19 +14,12 @@ export const Header = () => {
     });
 
     return (
-        <header className="bg-1">
-            <div className="container">
-                <Navbar /> 
-                <div className="contain-header">
-                    <div className="info-header">
-                        <h1 className="tit-header animation">Desarrollador-Programador</h1>
-                        <h2 className="name animation">Jalil López</h2>
-                        <p className='animation'>TSU en Tecnologías de la Información</p>
-                        <a href='#proyectos' className="btn animation">Ver proyectos</a>
-                    </div>
-                    <img className="img-programming animation" src='img/programming.svg' alt="programming" />
-                </div>
+        <header className="header h-vh-100 bg-primary">
+            <div className='name d-flex flex-column justify-content-end align-items-center pt-5'>
+                <h1 className='title2'>Jalil López</h1>
+                <p className='fw-bold fs-4 text-uppercase'>Desarrollador Web</p>
             </div>
+
         </header>
     )
 }

@@ -1,38 +1,14 @@
-header {
-    height: 100vh;
-}
-
-.contain-header {
-    display: flex;
-    height: 80vh;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tit-header {
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #6CDFDB;
+.header {
+    background: url('/public/img/bg.jpg');
+    background-attachment: fixed, scroll;
+    background-size: cover;
 }
 
 .name {
-    font-size: 5rem;
-    font-weight: 300;
+    height: 60vh;
 }
 
-.img-programming {
-    width: 50%;
-}
-
-.info-header .btn {
-    width: 80%;
-    margin-top: 2rem;
-}
-
-@media (max-width: 500px) {
-    .contain-header {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
+.title2 {
+    font-size: 15vmin;
+    font-weight: bold;
 }
