@@ -12,3 +12,15 @@
     font-size: 15vmin;
     font-weight: bold;
 }
+
+.scrolldown {
+    width: 5%;
+}
+
+.scroll-container {
+    height: 40vh;
+}
+
+.scroll-container p {
+    font-size: 15px;
+}
