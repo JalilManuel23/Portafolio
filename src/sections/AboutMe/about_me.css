@@ -1,70 +1,10 @@
 .about-me {
-    background-size: cover;
-    /* min-height: 100vh; */
-}
-
-.about-me-content {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M573.07 997.26a36.55 36.55 0 1 0 64.5 34.4z' stroke='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M861.11 415.12a104.16 104.16 0 1 0 72.24-195.4z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M507.5 302.7L551.21 302.7L551.21 346.41L507.5 346.41z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M295.9 635.35 a70.94 70.94 0 1 0 141.88 0 a70.94 70.94 0 1 0 -141.88 0z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1095.65 417.91a34.95 34.95 0 1 0 27.06-64.45z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1574.27 132.84L1622 132.84L1622 147.82L1574.27 147.82z' stroke='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1778.15 413.15L1884.97 413.15L1884.97 474.64L1778.15 474.64z' stroke='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M677.96 589.82L784.29 589.82L784.29 696.15L677.96 696.15z' stroke='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M21.78 547.65L99.93 547.65L99.93 625.8L21.78 625.8z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1879.53 746.91L1956.52 746.91L1956.52 805.03L1879.53 805.03z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1392.75 79.02L1460.23 79.02L1460.23 102.09L1392.75 102.09z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M692.78 656.01a102.87 102.87 0 1 0 127.23-161.69z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1366.14 314.39L1390.76 314.39L1390.76 339.01L1366.14 339.01z' stroke='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M337.23 94.58a37.79 37.79 0 1 0 29.42-69.62z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M525.03 1002.08L585.83 1002.08L585.83 1035.81L525.03 1035.81z' stroke='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M434.56 803.81L510.48 803.81L510.48 883.06L434.56 883.06z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1813 674.36L1840.53 674.36L1840.53 697.32L1813 697.32z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1322.6 670.31 a57.08 57.08 0 1 0 114.16 0 a57.08 57.08 0 1 0 -114.16 0z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1333.29 473.69 a19.58 19.58 0 1 0 39.16 0 a19.58 19.58 0 1 0 -39.16 0z' stroke='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M779.71 887.21 a12.15 12.15 0 1 0 24.3 0 a12.15 12.15 0 1 0 -24.3 0z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1696.78 172.58 a2.97 2.97 0 1 0 5.94 0 a2.97 2.97 0 1 0 -5.94 0z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M427.94 909.98 a66.96 66.96 0 1 0 133.92 0 a66.96 66.96 0 1 0 -133.92 0z' fill='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3cpath d='M1787.72 276.47L1860.33 276.47L1860.33 349.08L1787.72 349.08z' stroke='rgba(108%2c 223%2c 216%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
-.about-me-info {
-    display: flex;
-    min-height: 60vh;
-    align-items: center;
-}
-
-.trayectoria {
-    width: 40%;
-    /* height: 100%; */
-}
-
-.img-name {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.icons-img-name *{
-    margin: 0.5rem;
-    font-size: 5vmin;
-}
-
-.jalil-foto {
-    border: 2px solid #6cdfd8;
-    padding: 1vmin;
-    border-radius: 50%;
-}
-
-.img-name p {
-    padding: 2vmin;
-    font-size: 3vmin;
-}
-
-.info-ubi p, .info-ubi div {
-    width: 80%;
-    text-align: justify;
-    margin-left: 4vmin;
-}
-
-.info-ubi p {
-    font-size: 2.5vmin;
-}
-
-.ubi {
-    display: flex;
-    align-items: center;
-    margin-top: 3vmin;
-}
-
-.ubi p {
-    margin-left: 1vmin;
-}
-
-@media (max-width: 768px) {
-    .about-me-info {
-        flex-direction: column;
-    }
+.aboutme-container {
+    margin: 0 auto;
+    background: rgb(50, 118, 208);
 }
