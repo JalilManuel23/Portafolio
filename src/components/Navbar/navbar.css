@@ -20,7 +20,7 @@
 }
 
 .brand-title span {
-    color: rgb(60, 218, 218);
+    color: #01ce76;
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .navbar-links li:hover {
-    background-color: #272f36;
+    background-color: #20262b;
     border-radius: 8px;
 }
 

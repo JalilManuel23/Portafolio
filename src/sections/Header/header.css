@@ -1,7 +1,5 @@
 .header {
-    background: url('/public/img/bg.jpg');
-    background-attachment: fixed, scroll;
-    background-size: cover;
+    background: rgba(24,24,24,255)
 }
 
 .name {
