@@ -7,16 +7,20 @@
     position: fixed;
     width: 100%;
     z-index: 5;
-    transition: transform 1s ease-out;
+    transition: transform 2s ease-out;
 }
 
 .brand-title {
     font-size: 4vmin;
-    /* margin: .5rem; */
+    font-weight: bold;
+}
+
+.brand-title a {
+    color: #FFF;
 }
 
 .brand-title span {
-    color: aqua;
+    color: rgb(60, 218, 218);
     font-weight: bold;
 }
 
@@ -32,7 +36,7 @@
 }
 
 .navbar-links li a {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     display: block;
     color: #FFF;
 }
@@ -63,8 +67,8 @@
 }
 
 .navbar-links li:hover {
-    background-color: #223146;
-    border-radius: 2rem;
+    background-color: #272f36;
+    border-radius: 8px;
 }
 
 @media (max-width: 768px) {

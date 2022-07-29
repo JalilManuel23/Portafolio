@@ -21,7 +21,7 @@ export const Navbar = () => {
     return (
         <nav className={ navClass ? "navbar active" : "navbar" } >
             <div className="brand-title">
-                <span>&#8832;</span> Jalil López <span>&#8827;</span> 
+                <a href="#"><span>&#8832;</span> Jalil López <span>&#8827;</span></a>
             </div>
             <a href="#" className="toggle-button">
                 <span className="bar"></span>
@@ -30,11 +30,10 @@ export const Navbar = () => {
             </a>
             <div className="navbar-links">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#aboutme">Sobre mi</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
