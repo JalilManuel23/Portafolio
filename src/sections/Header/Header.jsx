@@ -18,7 +18,7 @@ export const Header = () => {
         <header className="header h-vh-100">
             <Navbar />
             <div className='name d-flex flex-column justify-content-end align-items-center pt-5'>
-                <h1 className='title2'>Jalil López.</h1>
+                <h1 className='title2'>Jalil López</h1>
                 <h4>Web Developer</h4>
             </div>
             <div className='scroll-container d-flex flex-column justify-content-end align-items-center'>

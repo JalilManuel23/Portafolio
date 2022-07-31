@@ -67,7 +67,8 @@
 }
 
 .navbar-links li:hover {
-    background-color: #20262b;
+    background-color: rgba(18,42, 66, .85);
+    color: #FFF;
     border-radius: 8px;
 }
 

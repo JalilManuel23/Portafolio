@@ -1,9 +1,17 @@
 .header {
-    background: rgba(24,24,24,255)
+    background: linear-gradient(to bottom, rgba(10, 36, 62, 0.542), rgba(18,42, 66, .85)), 
+                url('/public/img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed, scroll;
 }
 
 .name {
     height: 60vh;
+}
+
+.name h4 {
+    color: #01ce76;
+    font-weight: bold;
 }
 
 .title2 {
