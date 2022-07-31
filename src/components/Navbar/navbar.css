@@ -50,17 +50,17 @@
 
 .toggle-button {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 35px;
+    right: 25px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 21px;
+    height: 25px;
 }
 
 .toggle-button .bar {
-    height: 3px;
+    height: 4px;
     width: 100%;
     background-color: #FFF;
     border-radius: 10px;
@@ -84,7 +84,8 @@
 
     .navbar {
         flex-direction: column;
-        padding-top: 1rem;
+        width: 100vw;
+        padding: 25px;
         align-items: flex-start;
     }
 
@@ -103,5 +104,9 @@
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .brand-title, .toggle-button.bar a {
+        font-size: 25px;
     }
 }
