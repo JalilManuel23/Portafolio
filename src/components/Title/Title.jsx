@@ -5,9 +5,10 @@ import './title.css';
 
 export const Title = ({ text }) => {
     return (
-        <h4 className="title">
-            <FontAwesomeIcon className='icono' icon={ faHandPointRight } />
-            { text }
-        </h4>
+        <div className="title">
+            <h4>
+                { text }
+            </h4>
+        </div>
     )
 }

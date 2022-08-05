@@ -21,6 +21,15 @@ p {
     font-weight: 300;
 }
 
+a {
+    color: #36cfc5;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #259a92;
+}
+
 .btn {
     border: 2px solid #6cdfd8;
     border-radius: 4px;
