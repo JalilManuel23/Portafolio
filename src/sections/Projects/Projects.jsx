@@ -19,7 +19,7 @@ export const Projects = () => {
         <section id='proyectos' className="projects skewed">
             <div className="container projects-container" data-aos="fade-up">
                 <Title text="Projects and experience" />
-                <div className="projects">
+                <div className="list-projects">
                     
                 </div>
                 <a href="https://github.com/JalilManuel23" target="_blank" className="github-projects">
