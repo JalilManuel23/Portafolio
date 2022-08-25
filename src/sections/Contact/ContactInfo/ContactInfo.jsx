@@ -2,11 +2,11 @@ import React from 'react'
 import './contact-info.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export const ContactInfo = ({ icon, info }) => {
+export const ContactInfo = ({ icon, info, url }) => {
     return (
-        <div className='contact-info'>
+        <a href={ url } target='_blank' className='contact-info'>
             <FontAwesomeIcon icon={ icon } className='icon-contact'/>
             <p>{ info }</p>
-        </div>
+        </a>
     )
 }

@@ -1,3 +1,7 @@
+#skills {
+    background: #142B43;
+}
+
 .skills {
     display: flex;
     flex-direction: column;

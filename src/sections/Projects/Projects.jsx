@@ -16,10 +16,12 @@ export const Projects = () => {
     }, [])
 
     return (
-        <section id='proyectos' className="projects bg-1">
+        <section id='proyectos' className="projects skewed">
             <div className="container projects-container" data-aos="fade-up">
-                <Title text="Proyectos" />
-                <Carrousel data = { projects } />
+                <Title text="Projects and experience" />
+                <div className="list-projects">
+                    
+                </div>
                 <a href="https://github.com/JalilManuel23" target="_blank" className="github-projects">
                     <FontAwesomeIcon icon={ faGithub } className='arrow'  />
                     <p>@JalilManuel23</p>

@@ -9,7 +9,7 @@ header, section {
 }
 
 .bg-1 {
-    background: #303F53;
+    background: #f7f7f9;
 }
 
 img {
@@ -19,6 +19,15 @@ img {
 p {
     font-size: 1.3rem;
     font-weight: 300;
+}
+
+a {
+    color: #36cfc5;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #259a92;
 }
 
 .btn {
@@ -39,3 +48,19 @@ p {
     color: #FFF;
     border: 2px solid#FFF;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

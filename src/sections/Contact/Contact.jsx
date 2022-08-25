@@ -11,16 +11,16 @@ export const Contact = () => {
 
     useEffect(() => {
         Aos.init({ duration: 3000 })
-    }, [])
+    }, []);
 
     return (
-        <div id='contacto' className='bg-1'>
+        <div id='contact' className='bg-1'>
             <div className="container contact" data-aos="fade-up">
-                <Title text="Contacto" />
+                <Title text="Contact me" />
                 <div className="list-contactInfo">
                     {
-                        contactInfo.map(( { id, icon, info } ) => {
-                            return <ContactInfo icon={ icon } info={ info } key={ id } />
+                        contactInfo.map(( { id, icon, info, url } ) => {
+                            return <ContactInfo icon={ icon } info={ info } key={ id } url = { url } />
                         })
                     }
                 </div>

@@ -38,33 +38,23 @@ const skills = [
         "icon": faPhp
     },
     {
+        "id": 8,
+        "title": "Codeigniter",
+        "icon": faPhp
+    },
+    {
         "id": 9,
-        "title": "Java",
-        "icon": faJava
-    },
-    {
-        "id": 10,
-        "title": "Python",
-        "icon": faPython
-    },
-    {
-        "id": 11,
         "title": "GIT",
         "icon": faGitAlt
     },
     {
-        "id": 12,
+        "id": 10,
         "title": "MongoDB",
         "icon": faDatabase
     },
     {
-        "id": 13,
+        "id": 11,
         "title": "MySQL",
-        "icon": faDatabase
-    },
-    {
-        "id": 14,
-        "title": "PosgreSQL",
         "icon": faDatabase
     },
 ]

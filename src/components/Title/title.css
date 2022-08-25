@@ -1,9 +1,9 @@
-.icono {
-    color: #2EC9C4;
-    margin-right: 4px;
+.title {
+    display: flex;
+    justify-content: center;
 }
 
-.title {
-    font-size: 2rem;
-    text-transform: uppercase;
+.title h4 {
+    font-size: 4rem;
+    border-bottom: 5px solid rgb(92, 218, 108); 
 }

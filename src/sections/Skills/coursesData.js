@@ -1,33 +1,39 @@
 const courses = [
     {
         "id": 1,
-        "name": "Curso Ciberseguridad Cisco",
-        "image": "img/courses/cisco.jpg",
-        "description": "Impartido por Cisco"
+        "name": "SCRUM",
+        "image": "img/courses/scrum.jpg",
+        "description": "Scrum Foundation Professional Certificate - SFPC"
     },
     {
         "id": 2,
-        "name": "Curso MongoDB Basics",
-        "image": "img/courses/m001.jfif",
-        "description": "Fundamentos de MongoDB"
+        "name": "Cybersecurity Cisco",
+        "image": "img/courses/cisco.jpg",
+        "description": "By Cisco"
     },
     {
         "id": 3,
-        "name": "Curso de PHP",
-        "image": "img/courses/php.jpg",
-        "description": "Realizado en la plataforma de Udemy"
+        "name": "MongoDB Basics",
+        "image": "img/courses/m001.jfif",
+        "description": "MongoDB Basics"
     },
     {
         "id": 4,
-        "name": "Curso de JQuery",
-        "image": "img/courses/jquery.jpg",
-        "description": "Realizado en la plataforma de Udemy"
+        "name": "PHP course",
+        "image": "img/courses/php.jpg",
+        "description": "Udemy course"
     },
     {
         "id": 5,
-        "name": "Curso MongoDB for SQL Pros",
+        "name": "JQuery course",
+        "image": "img/courses/jquery.jpg",
+        "description": "Udemy course"
+    },
+    {
+        "id": 6,
+        "name": "MongoDB for SQL Pros",
         "image": "img/courses/m100.jpg",
-        "description": "Relación y comparación de Mongo y SQL"
+        "description": "MongoDB for SQL Pros "
     }
 ]
 

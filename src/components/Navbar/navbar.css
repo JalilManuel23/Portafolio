@@ -2,16 +2,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 3rem;
+    padding: 0.8rem 3rem;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    transition: transform 2s ease-out;
 }
 
 .brand-title {
     font-size: 4vmin;
-    /* margin: .5rem; */
+    font-weight: bold;
+}
+
+.brand-title a {
+    color: #FFF;
 }
 
 .brand-title span {
-    color: aqua;
+    color: #01ce76;
     font-weight: bold;
 }
 
@@ -27,31 +36,40 @@
 }
 
 .navbar-links li a {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     display: block;
+    color: #FFF;
+}
+
+.active {
+    background: #1d3450;
+    box-shadow: 0 2px 2px -2px rgba(27, 32, 97, 0.2);
+    backdrop-filter: blur(5px);
+    transition: transform 1s ease-out;
 }
 
 .toggle-button {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 35px;
+    right: 25px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 21px;
+    height: 25px;
 }
 
 .toggle-button .bar {
-    height: 3px;
+    height: 4px;
     width: 100%;
     background-color: #FFF;
     border-radius: 10px;
 }
 
 .navbar-links li:hover {
-    background-color: #223146;
-    border-radius: 2rem;
+    background-color: rgba(18,42, 66, .85);
+    color: #FFF;
+    border-radius: 8px;
 }
 
 @media (max-width: 768px) {
@@ -66,7 +84,8 @@
 
     .navbar {
         flex-direction: column;
-        padding-top: 1rem;
+        width: 100vw;
+        padding: 25px;
         align-items: flex-start;
     }
 
@@ -85,5 +104,9 @@
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .brand-title, .toggle-button.bar a {
+        font-size: 25px;
     }
 }
