@@ -1,6 +1,7 @@
 .contact-info {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 50%;
     margin-top: 15vh;
     font-size: 5vmin;
@@ -8,6 +9,7 @@
 
 .contact-info p {
     font-weight: bold;
+    margin: 0;
 }
 
 .icon-contact {
